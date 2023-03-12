@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Assessment Proctor</title>
+    <link rel="stylesheet" href="webcam.css">
+
+  </head>
+  <body>
+    <h1>Assessment Proctor</h1>
+    <div id="video-container">
+      <video id="live-video" autoplay></video>
+    </div>
+    <!-- <video id="video"></video> -->
+    <div id="controls">
+      <button id="record-button">Record</button>
+      <button id="stop-button">Stop</button>
+      <button id="play-button">Play</button>
+    </div>
+    <script src="webcam.js"></script>
+  </body>
+</html>
+
+
+<!-- navigator.mediaDevices.getUserMedia({ video: true })
+  .then(function(stream) {
+    var video = document.createElement('video');
+    video.srcObject = stream;
+    video.play();
+    /* video access granted */
+  })
+  .catch(function(err) {
+    /* video access denied */
+  }); -->
+  <!-- navigator.mediaDevices.getUserMedia({ audio: true })
+  .then(function(stream) {
+    /* microphone access granted */
+  })
+  .catch(function(err) {
+    /* microphone access denied */
+  }); -->

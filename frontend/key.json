@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "elitmus-assignment-c51db",
+  "private_key_id": "ce28247a0b57165eb97f88085e9dbf84a3d9633d",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDZlZ+1BxOQNSqd\n6GbW6P+dD/M4Kb/Wn2p0+0cemREl3j7jeZVRRJCzZopYlxcHSMffaZ39TyFr1W7A\n9lgTgEeUqFAXwqOuThO/PC+ZzBrk3Y1Rv+6nV7Xe3gGJprcXvQAIUsPb3+tEtG6h\nPPrV/aw/koFUG5CzJxc0ONmPa95IwhObdnmp3q+OQB/TCEPtyOPhRoGzyldh7iOH\nDc+cPg/6UtVkx0XjXOIWAhpoSFct+tntAdP2ybXx4xT3c9ot5W43bPAN04lNXe0Q\nvQUKm3gKco26rzw3YDgzac7wR44V5DD/xCNrL/KhsL6GoeJ1sv4HtyTxqLtMV1hV\nXboJ9OL5AgMBAAECggEADXsgQIqWMzagE9WM3Z7lC3msA5xOlwEciu/wqZwpPFPn\nSJfFYRoi7wKY6sE9u4VOYPC9ya6H7xLzwD/jGB44ESVWhQpZstiCj7QubNSBDBIQ\nCfMe2b5s9ciChuFN8coTgPCD0xEuFf0p55KMJgsIC45LtgbZMchnvyQQkrrHtHE4\nnsKdflAWZXB82F/NKz/vWgyoDLp2QiJbW4ulHr57zqaAa3/TwJJxxf1urwKXCL7s\nT3BgozAfSPXm1mJfhfPwsYKbnafCmso7EMzXIqSJ2SbnjlPLrxe0rCfmOM0oMWRk\nNTlGRdcr7ae9kKQSUzMxV5Os9qwIqNLYY9KPl19naQKBgQDwE3NiGbB9JhTgPTAs\nuHMdpfpaK8mC4M1fZaicFGCQvyczThtnBD3RBvxC0VErPjOozvqR5ybHpStpJhbz\nhGZO6sv3mVx1f04ST1NJ0NAA/mkNvrLwy5U2IrryufKo70YyZ68b/oijiG/BeVTe\n5pcHs0debFzWTjDAKr/CS27j7QKBgQDoBEMBT/ZrTfr/+u4HMPpx+JgGSBLMlgVH\nRe445Yuw5zx2TYGVBN+u5kgn8i0rCGaBswbX6xWtUzsivKOM5Rv4+GE4/3V0Csk4\nWJKe+2Y+m8RbPsLTvAbKd4nsNp96ubL7j4JJ5k4c5KGHuuP7D+l1moL4dos0KBOK\neY3ldwdxvQKBgQCf/LZV17zPicM7tEsYYksEpQlzcd62Q01Zl4uHh+TaUSi0fgaw\n3hi75aXSeV9YK/mNM3G0LZCgVyfYyLNe0QrE6J/IfwEopA/JD+f3NxqGrwQfTsg8\nw87J5tcizlwxzFLBYGtHgpZYNKIVEuBGMvDPBuA2wowTnMPMLDDiMBbT+QKBgEGG\nupnLSJADpQjYiJMVXRYFHIJhppWLJRB9CoudILekhunud9NrXfUaanSFrAYESFcH\nBb7DUQrzf7cOya4IIr9M/sBHPZe5WB0GvtoRrE2wVmNitUlxSAW0fwpsXtwdSBRN\n8oEGfzcfxxL7UFneo5OoQKcFa8keLG6mZ9HPrRWNAoGANZ4T4SGRutjzLW4zpV/9\nJ9up+ggLSpiGxmZKD/XpVtBr/szU1eNBpa6ooeyPSe3yshkjUjEukZDX3Yo5C8P3\n98xGXqYxkyxs6D1ENuGNwUgaMZ26iPRnaUd0IoP4ZXHDhRiKqW6vLGh9i9P/OxmK\nVDX1Eos3M2vj7K15KnBnRn0=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-lfdxe@elitmus-assignment-c51db.iam.gserviceaccount.com",
+  "client_id": "114103984908833862373",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-lfdxe%40elitmus-assignment-c51db.iam.gserviceaccount.com"
+}
