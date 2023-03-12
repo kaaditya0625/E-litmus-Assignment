@@ -4,16 +4,27 @@ body {
   line-height: 1.5;
   padding: 20px;
   width: 300px;
-  height: 400px;
+  height: 360px;
 }
 
 h1 {
   font-size: 20px;
   margin-top: 0;
 }
-
+h1.Heading ,h2.Heading{
+  position: sticky;
+  background: #060606;
+  color: white;
+  text-align: center;
+  border-top: 5px;
+  display: list-item;
+  padding: 10px;}
+h2.Heading{
+  padding: 0px;
+}
 form {
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 label {
@@ -24,7 +35,7 @@ label {
 input[type="text"],
 input[type="email"] {
   display: block;
-  width: 100%;
+  width: 96%;
   margin-bottom: 10px;
   padding: 5px;
   border: 1px solid #ccc;
@@ -78,9 +89,7 @@ button[type="button"]:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-.popup h2 {
-  margin-top: 0;
-}
+
 
 .popup label {
   display: block;
@@ -89,9 +98,11 @@ button[type="button"]:hover {
 
 .popup input[type="email"],
 .popup input[type="password"] {
-  width: 100%;
+  width: auto;
   padding: 5px;
   margin-bottom: 10px;
+  border:1px solid #ccc;
+  border-radius: 3px;
 }
 
 .popup #admin-login-button, .popup #admin-close-button {
@@ -101,7 +112,7 @@ button[type="button"]:hover {
   padding: 10px;
   border-radius: 5px;
   cursor: pointer;
-  margin-right: 10px;
+  /* margin-right: 10px; */
 }
 
 .popup #admin-login-button:hover, .popup #admin-close-button:hover {

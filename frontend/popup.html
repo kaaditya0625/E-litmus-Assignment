@@ -3,34 +3,36 @@
 
 <head>
   <title>Assessment Proctor</title>
-  <link rel="stylesheet" href="popup.css">
+  <link rel="stylesheet" href="popup.css"> <!-- Link to external CSS file -->
 </head>
 
 <body>
+
+  <!-- User Login Popup -->
   <div id="user-login-popup">
-    <h1>Assessment Proctor</h1>
+    <h1 class="Heading">Assessment Proctor</h1>
     <form method="post" id="start-test-form">
       <label for="name">Name:</label>
       <input type="text" id="name" name="name"><br>
-      
+
       <label for="email">Email:</label>
       <input type="email" id="email" name="email"><br>
-      
+
       <label for="invitation-code">Invitation Code:</label>
       <input type="text" id="invitation-code" name="invitation-code"><br>
       <div id="buttonOption">
-        <button type="submit" id="start-test-button" >Start Test</button>
-        <button type="button" id="admin-button">Admin</button>
-        <!-- <script></script> -->
+        <button type="submit" id="start-test-button">Start Test</button>
+        <!-- Button to submit the form and start the test -->
+        <button type="button" id="admin-button">Admin</button> <!-- Button to open the admin login popup -->
       </div>
     </form>
   </div>
 
   <!-- Admin Login Popup -->
-  <div id="admin-login-popup" class="overlay">
-    <div class="popup">
-      <h2>Admin Login</h2>
-      
+  <div id="admin-login-popup" class="overlay"> <!-- Div container for the admin login popup -->
+    <div class="popup"> <!-- Div container for the content of the popup -->
+      <h2 class="Heading">Admin Login</h2>
+
       <!-- <a class="close" href="#">×</a> -->
       <form id="admin-login-form">
         <label for="admin-email">Email:</label>
@@ -39,15 +41,14 @@
         <input type="password" id="admin-password" name="admin-password"><br>
         <div id="buttonOption">
           <button type="submitAdmin" id="admin-login-button">Login</button>
-          <button type="closeAdmin" id="admin-close-button">Close</button>          
+          <!-- Button to submit the admin login form -->
+          <button type="closeAdmin" id="admin-close-button">Close</button>
+          <!-- Button to close the admin login popup -->
         </div>
       </form>
     </div>
   </div>
-
-  <div id="admin-table-container"></div>
-
-  <script src="popup.js"></script>
+  <script src="popup.js"></script> <!-- Link to external JavaScript file -->
 </body>
 
 </html>
